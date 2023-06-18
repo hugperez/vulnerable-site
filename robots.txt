@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /96bd94aa09f61018abeaf0cd7b7c6387.php

@@ -9,9 +9,11 @@
 <body>
 
 <div class="topnav">
-  <h1>SQLi - niveau 1</h1>
+  <h1>SQLi - niveau 2</h1>
   <a href="/index.php">Accueil</a>
-  <a href="2.php">Niveau 2</a>
+  <a href="3.php">Niveau 3</a>
+  <a href="1.php">Niveau 1</a>
+
 </div>
 
 <div class="content">
@@ -38,10 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $username = $_POST["username"];
   $password = $_POST["password"];
 
-  
-  $sql = "SELECT * FROM sql1 WHERE username = '$username' and password='$password'";
-  $result = $conn->query($sql);
-
+  $stmt = $conn->prepare("SELECT * FROM sql1 WHERE username = ? AND password = '$password'");
+  $stmt->bind_param("s", $username);
+  $stmt->execute();
+  $result = $stmt->get_result();
   if ($result->num_rows > 0) {
       $row = $result->fetch_assoc();
         echo '<label class="success">Bravo !</label>';

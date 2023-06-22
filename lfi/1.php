@@ -19,8 +19,8 @@
 <br>
 <p>
 <?php
-if (isset($_GET['topic'])) {
-    include($_GET['topic']);
+if (isset($_GET['file'])) {
+    include('contents/' + $_GET['file']);
 }
 ?>
 </p>

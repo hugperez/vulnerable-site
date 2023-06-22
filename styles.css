@@ -56,6 +56,12 @@
   .content * {
     width: 15%;
   }
+  .content pre {
+    width: 45%;
+  }
+  .content .file {
+    width: 100%;
+  }
   
   /* Style the footer */
   .footer {

@@ -19,7 +19,9 @@
 <a class="btn" href="xss/1.php"> XSS</a>
   <a class="btn" href="sqli/1.php"> Injection SQL</a>
   <!-- <a class="btn" href="33a2838ab91f7f01a24da38cb55cae10.php"> Secret</a> --> 
-
+  <a class="btn" href="ssrf/1.php"> SSRF</a>
+  <a class="btn" href="cmd/1.php"> Command injection</a>
+  <a class="btn" href="file/1.php"> File upload</a>
 
   <a class="btn" style="margin-top: 100px;" href="wordlist.zip"> Télécharger la wordlist</a>
   <p> Bonus : trouver les 5 secrets cachés sur le site</p>

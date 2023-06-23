@@ -15,6 +15,8 @@ sudo chmod -R 777 /var/www/html/upload => right in folder
 
 
 # Cheatsheet
+<detail>
+<summary> Click for detail</summary>
 
 ## Broken authentication
 Level 1
@@ -102,3 +104,5 @@ code source => 33a2838ab91f7f01a24da38cb55cae10.php
 
 Extract .git 
 git restore .
+
+</detail>

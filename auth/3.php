@@ -67,7 +67,7 @@ $conn->close();
 
 <pre> Suite à un audit de sécurité, on stock maintenant le hash sha256 du mot de passe.
 Par exemple => admin:49a8d6398bc509eb098ae5f0bb590b7ed7ee8ed7ee2b9ee4f46c61b904811505
-Avec ça aucun risque de contourné l'authentification, de plus le mot de passe fait 22 caractères...
+Avec ça aucun risque de contourner l'authentification, de plus le mot de passe fait 22 caractères...
 </pre>
 </div>
 

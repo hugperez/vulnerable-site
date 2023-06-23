@@ -11,6 +11,7 @@
 <div class="topnav">
 <h1>Broken authentication -  niveau 2</h1>
 <a href="/index.php">Accueil</a>
+<a href="3.php">Niveau 3</a>
 <a href="1.php">Niveau 1</a>
 </div>
 

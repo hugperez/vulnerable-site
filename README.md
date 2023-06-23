@@ -16,7 +16,7 @@ sudo chmod -R 777 /var/www/html/upload => right in folder
 
 # Cheatsheet
 <details>
-<summary> Click for detail</summary>
+<summary> Click me</summary>
 
 ## Broken authentication
 Level 1

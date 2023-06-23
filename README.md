@@ -1,3 +1,19 @@
+# Installation
+Basic LAMP...
+
+```
+sudo apt install apache2 php libapache2-mod-php mysql-server php-mysql
+```
+move folder to /var/www/html
+
+script.sql for database
+
+```
+sudo mkdir /var/www/html/upload/
+sudo chmod -R 777 /var/www/html/upload => right in folder
+```
+
+
 # Cheatsheet
 
 ## Broken authentication

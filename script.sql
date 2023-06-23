@@ -1,3 +1,8 @@
+CREATE user 'user'@'localhost' identified by 'pass';
+create database vuln;
+grant all privileges on vuln.* to 'user'@'localhost';
+use vuln;
+
 CREATE TABLE auth1(username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL);
 CREATE TABLE auth2(username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL);
 CREATE TABLE auth3(username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL);
